@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+.list-icons {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    width: 80px;
+    height: 80px;
+    color: gray;
+    background-color: #8080803b;
+    border-radius: 50%;
+    border: 1px solid #80808029;
+    margin: 0 5px;
+    text-align: center;
+    line-height: 87px;
+    text-decoration: none;
+}
+
+.icon {
+    font-size: 30px;
+}
+
+.num {
+    position: relative;
+    top: -88px;
+    right: -60px;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+    border-radius: 50%;
+}
+
+.num2 {
+    background-color: #008000c4;
+}
+
+.num3 {
+    background-color: #000000cf;
+}
+
+.num6 {
+    background-color: #fb9b16c4;
+}
+
+
+/* ////////////////////////////////////////// */
+
+.list-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 23%;
+    height: 150px;
+    margin: 10px 10px;
+}
+
+.tittle {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffffa6;
+    color: #000000c9;
+}
+
+.tittle p {
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.tittle-icon {
+    width: 35px;
+    height: 28px;
+    border: 1px solid gray;
+    text-align: center;
+    line-height: 26px;
+    margin-right: 5px;
+}
+
+.content {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+
+.content-icon {
+    margin-left: 14px;
+}
+
+.number {
+    margin-right: 14px;
+}
+
+.card1 {
+    background-color: cornflowerblue;
+}
+
+.card2 {
+    background-color: purple;
+}
+
+.card3 {
+    background-color: yellowgreen;
+}
+
+.card4 {
+    background-color: tomato;
+}
+
+.card5 {
+    background-color: yellowgreen;
+}
+
+.card6 {
+    background-color: red;
+}
+
+.card7 {
+    background-color: black;
+}
+
+.card8 {
+    background-color: violet;
+}
